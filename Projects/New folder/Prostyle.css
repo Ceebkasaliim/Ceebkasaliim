@@ -228,9 +228,9 @@ span {
 
 /* main Section */
 #main {
-	background-image: url(img/Home.jpg);
+	background-image: url(img/hero-bg.png);
 	background-size: cover;
-	background-position:  top center;
+	background-position: top center;
 	position: relative;
 	z-index: 1;
 	background-attachment: fixed;
@@ -796,9 +796,6 @@ span {
 	#about .about {
 	padding-top: 100px;
 	padding-bottom: 0;
-	}
-	#main {
-		background-image: url(img/a.jpg);
 	}
 }
 
