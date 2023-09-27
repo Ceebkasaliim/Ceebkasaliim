@@ -56,7 +56,7 @@ span {
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
-		transition: 0.7s ease;
+	transition: 0.7s ease;
 }
 .cta:hover {
 	color: white;
@@ -114,7 +114,7 @@ span {
 	list-style: none;
 	position: absolute;
 	background-color: rgb(31, 30, 30);
-	width:48%;
+	width: 96%;
 	height: 98vh;
 	left: 100%;
 	top: 10px;
@@ -128,7 +128,7 @@ span {
     border-radius: 10px;
 }
 #header .nav-list ul.active {
-	left: 50%;
+	left: 10px;
 }
 #header .nav-list ul a {
 	font-size: 2.5rem;
@@ -228,7 +228,7 @@ span {
 
 /* main Section */
 #main {
-	background-image: url(img/Home.jpg);
+	background-image: url(img/background.jpg);
 	background-size: cover;
 	background-position:  top center;
 	position: relative;
@@ -315,6 +315,9 @@ span {
 #services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
+}
+#services .service-top p {
+	padding: 10px;
 }
 #services .service-bottom {
 	display: flex;
@@ -436,6 +439,11 @@ span {
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
+}
+
+#projects .all-projects .D-button .cta {
+	color: black;
+	font-weight: 600;
 }
 /* End Projects section */
 
@@ -767,9 +775,8 @@ span {
 		justify-content: center;
 		padding: 30px;
 	}
-	#header .nav-list ul {
-    border: 3px solid crimson;
-    border-radius: 10px;
+	#main {
+		background-image: url(img/a.jpg);
 	}
 }
 
@@ -788,6 +795,9 @@ span {
 		margin: 0 10px;
 	}
 	#about .D-button .cta {
+		font-size: 1.5rem;
+	}
+	#projects .all-projects .D-button .cta {
 		font-size: 1.5rem;
 	}
 	#header .nav-list ul a {
